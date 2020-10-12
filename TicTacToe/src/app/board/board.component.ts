@@ -10,7 +10,7 @@ export class BoardComponent implements OnInit {
   xIsNext: boolean;
   winner: string;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     this.newGame();
