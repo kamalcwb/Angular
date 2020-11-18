@@ -1,6 +1,8 @@
 <h1>Calculadora</h1>
 
-<i>Projeto feito com Angular</i>
+<img src="https://github.com/kamalcwb/Angular/blob/main/calculadora/img/ss1.png">
+
+<i>Projeto Angular</i>
 
 <h2>Servidor </h2>
 
