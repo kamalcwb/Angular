@@ -20,5 +20,3 @@ import { FormsModule } from '@angular/forms';
 export class AppModule { }
 
 //codes
-
-//update app.module.ts 20/11/2020 by kamal kaminski
