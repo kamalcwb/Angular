@@ -13,7 +13,8 @@ import { TarefasModule } from './tarefas';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    TarefasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
