@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { TarefasModule } from '../tarefas.module';
 import { Tarefa } from './';
 
 @Injectable({
@@ -18,5 +19,10 @@ export class TarefaService {
     tarefa.id = new Date().getTime();
     tarefas.push(tarefa);
     localStorage['tarefas'] = JSON.stringify(tarefas)
+  }
+
+  buscarPorId(id: number): Tarefa {
+    const tarefas: Tarefa[] = this.listarTodos();
+    return tarefas.find(tarefa => tarefa.id === id);
   }
 }
